@@ -1,6 +1,6 @@
 # Food Image Classification using Transfer Learning
 
-This repository contains a transfer learning-based image classification project for recognizing various food items from the Food-101 dataset. We employed ResNet50, DenseNet121, and EfficientNetB7 architectures, with ResNet50 showing the highest accuracy among them, achieving 80% accuracy.
+This repository contains a transfer learning-based image classification project for recognizing various food items from the Food-101 dataset. We employed ResNet50, DenseNet121, and EfficientNetB7 architectures, with EfficientNet showing the highest accuracy among them, achieving 80% for accuracy and val_accuracy.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ This repository contains a transfer learning-based image classification project 
 
 ## Introduction
 
-This project aims to classify food items using deep learning techniques, specifically leveraging transfer learning with pre-trained models like ResNet50, DenseNet121, and EfficientNetB7. The goal is to accurately identify 101 different food categories based on images.
+This project aims to classify food items using deep learning techniques, specifically leveraging transfer learning with pre-trained models like ResNet50, DenseNet121, and EfficientNetB7. The goal is to accurately identify 60 different food categories based on images.
 
 ---
 
@@ -25,107 +25,66 @@ We used the [Food-101 dataset](https://www.kaggle.com/datasets/dansbecker/food-1
 <details>
 <summary>Click to expand for the list of food categories</summary>
 
-- Apple pie
-- Baby back ribs
-- Baklava
-- Beef carpaccio
-- Beef tartare
-- Beet salad
-- Beignets
-- Bibimbap
-- Bread pudding
-- Breakfast burrito
-- Bruschetta
-- Caesar salad
-- Cannoli
-- Caprese salad
-- Carrot cake
-- Ceviche
-- Cheesecake
-- Cheese plate
-- Chicken curry
-- Chicken quesadilla
-- Chicken wings
-- Chocolate cake
-- Chocolate mousse
-- Churros
-- Clam chowder
-- Club sandwich
-- Crab cakes
-- Creme brulee
-- Croque madame
-- Cup cakes
-- Deviled eggs
-- Donuts
-- Dumplings
-- Edamame
-- Eggs benedict
-- Escargots
-- Falafel
-- Filet mignon
-- Fish and chips
-- Foie gras
-- French fries
-- French onion soup
-- French toast
-- Fried calamari
-- Fried rice
-- Frozen yogurt
-- Garlic bread
-- Gnocchi
-- Greek salad
-- Grilled cheese sandwich
-- Grilled salmon
-- Guacamole
-- Gyoza
-- Hamburger
-- Hot and sour soup
-- Hot dog
-- Huevos rancheros
-- Hummus
-- Ice cream
-- Lasagna
-- Lobster bisque
-- Lobster roll sandwich
-- Macaroni and cheese
-- Macarons
-- Miso soup
-- Mussels
-- Nachos
-- Omelette
-- Onion rings
-- Oysters
-- Pad thai
-- Paella
-- Pancakes
-- Panna cotta
-- Peking duck
-- Pho
-- Pizza
-- Pork chop
-- Poutine
-- Prime rib
-- Pulled pork sandwich
-- Ramen
-- Ravioli
-- Red velvet cake
-- Risotto
-- Samosa
-- Sashimi
-- Scallops
-- Seaweed salad
-- Shrimp and grits
-- Spaghetti bolognese
-- Spaghetti carbonara
-- Spring rolls
-- Steak
-- Strawberry shortcake
-- Sushi
-- Tacos
-- Takoyaki
-- Tiramisu
-- Tuna tartare
-- Waffles
+- apple_pie
+- baby_back_ribs
+- baklava
+- beignets
+- bibimbap
+- breakfast_burrito
+- caesar_salad
+- cannoli
+- caprese_salad
+- cheesecake
+- cheese_plate
+- chicken_curry
+- chicken_wings
+- chocolate_cake
+- chocolate_mousse
+- churros
+- club_sandwich
+- creme_brulee
+- cup_cakes
+- donuts
+- dumplings
+- falafel
+- filet_mignon
+- fish_and_chips
+- french_fries
+- french_toast
+- fried_calamari
+- fried_rice
+- frozen_yogurt
+- garlic_bread
+- greek_salad
+- grilled_cheese_sandwich
+- grilled_salmon
+- gyoza
+- hamburger
+- hot_dog
+- ice_cream
+- lasagna
+- macaroni_and_cheese
+- macarons
+- miso_soup
+- nachos
+- omelette
+- onion_rings
+- pancakes
+- pizza
+- prime_rib
+- ramen
+- red_velvet_cake
+- samosa
+- sashimi
+- spaghetti_bolognese
+- spaghetti_carbonara
+- steak
+- strawberry_shortcake
+- sushi
+- tacos
+- takoyaki
+- tiramisu
+- waffles
 
 </details>
 
