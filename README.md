@@ -21,7 +21,7 @@ This project aims to classify food items using deep learning techniques, specifi
 
 ## Dataset
 
-We used the [Food-101 dataset](https://www.kaggle.com/datasets/dansbecker/food-101), which consists of 101 food categories. 
+We used the [Food-101 dataset](https://www.kaggle.com/datasets/dansbecker/food-101), which consists of 101 food categories and then reduced it to 60 classes based on foods that are commonly eaten by Indonesian people.
 <details>
 <summary>Click to expand for the list of food categories</summary>
 
@@ -136,6 +136,7 @@ Future enhancements to this project could include:
 
 ---
 
-This README provides an overview of our approach, results, and potential future directions for this food image classification project. For detailed implementation and code, please refer to the repository.
+This README provides an overview of our approach, results, and potential future directions for this food image classification project. The model was built by **Muhamad Rafli Fauzi**. For detailed implementation and code, please refer to the repository.
+
 
 ---
