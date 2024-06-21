@@ -1,6 +1,6 @@
 # Food Image Classification using Transfer Learning
 
-This repository contains a transfer learning-based image classification project for recognizing various food items from the Food-101 dataset. We employed ResNet50, DenseNet121, and EfficientNetB7 architectures, with EfficientNet showing the highest accuracy among them, achieving 80% for accuracy and val_accuracy.
+This repository contains a transfer learning-based image classification project for recognizing various food items from the Food-101 dataset. We employed ResNet50, DenseNet121, and EfficientNetB7 architectures, with EfficientNetB7 showing the highest accuracy among them, achieving 80% for accuracy and val_accuracy.
 
 ## Table of Contents
 
@@ -100,7 +100,7 @@ The dataset provides a diverse collection of food images suitable for training d
 - **DenseNet121**: Utilizes dense connections between layers to improve feature propagation and reuse.
 - **EfficientNetB7**: A scalable and efficient model architecture that balances accuracy and computational resources.
 
-Among these models, ResNet50 demonstrated superior performance in our experiments, achieving an accuracy of 80%.
+Among these models, EfficientNetB7 demonstrated superior performance in our experiments, achieving an accuracy of 80%.
 
 ---
 
@@ -111,7 +111,7 @@ Among these models, ResNet50 demonstrated superior performance in our experiment
 - Images were preprocessed and augmented using `ImageDataGenerator` from TensorFlow.
 
 ### Training Procedure:
-- We defined a model architecture using ResNet50 as the base feature extractor.
+- We defined a model architecture using EfficientNetB7 as the base feature extractor.
 - The model was compiled with categorical crossentropy loss and Adam optimizer.
 - Training was conducted over 20 epochs.
 
